@@ -5,55 +5,83 @@
         <meta name="viewport" content="width=device-width, initial_scale=1.0">
         <title>Mimic_Page</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     </head>
     <body>
         <header>
            
             <nav>
-                <li><a href="">About</a></li>
-                <li><a href="">Work</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#intro">About</a></li>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
             </nav>
 
         </header>
 
         <main>
-            <div class="intro">
+            <div class="intro" id="intro">
             <h1>Hey I am Tarun</h1>
             <i>an aspiring web developer</i>
             </div>
 
-            <div class="portfolio">
+            <div class="portfolio" id="portfolio">
                 <h2>These are some of my projects</h2>
                 <hr></hr>
                 <section class="projects">
-                    <div>
+                    <div class="project">
                         <img src="" alt="">
-                        <p>Tribute Page</p>
+                        <i>Tribute Page</i>
                     </div>
 
-                    <div>
+                    <div class="project">
                         <img src="" alt="">
-                        <p>Technical documentation</p>
+                        <i>Technical documentation</i>
+                    </div>
+
+                    <div class="project">
+                        <img src="" alt="">
+                        <i>Product Landing</i>
+                    </div>
+
+                    <div class="project">
+                        <img src="" alt="">
+                        <i>Tribute Page</i>
+                    </div>
+
+                    <div class="project">
+                        <img src="" alt="">
+                        <i>Technical documentation</i>
+                    </div>
+
+                    <div class="project">
+                        <img src="" alt="">
+                        <i>Product Landing</i>
                     </div>
                 </section>
+                <button>
+                    show all <strong>></strong>
+                </button>
             </div>
 
             
-            <div class="contact">
+            <div class="contact" id="contact">
+                <div class="information">
                 <h2>Let's work together...</h2>
-                <p>Do you prefer hot drinks or soft drinks?</p>
-                <a href="#" class="fa fa-facebook">Facebook</a>
-                <a href="#" class="fa fa-github">Github</a>
-                <a href="#" class="fa fa-twitter">Twitter</a>
-                <a href="#" class="fa fa-mail">Send a mail</a>
-                <a href="#" class="fa fa-phone">Call me</a>
+    
+                <p>Do you prefer hot drinks or soft drinks?</p> 
+                
+                <a href="#" class="fab fa-facebook"> <strong>Facebook</strong></a>
+                <a href="#" class="fab fa-github"> <strong>Github</strong></a>
+                <a href="#" class="fab fa-twitter"> <strong>Twitter</strong></a>
+                <a href="#" class="fa fa-envelope"> Send a mail</a>
+                <a href="#" class="fa fa-phone"> Call me</a>
+            </div>
             </div>
         </main>
 
         <footer>    
             <p>**This is prototype, more amazing things will come soon <a href="#" class="fa fa-good"></a></p>
-            <p>created for practice</p>
+            <p>Created for practice</p>
         </footer>
     </body>
 </html>
