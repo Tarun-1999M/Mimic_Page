@@ -1,0 +1,35 @@
+header{
+    background-color:antiquewhite;
+    width:100%;
+    position:fixed;
+    height:4em;
+    top:0%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+nav{
+    display:flex;
+    justify-content: flex-end;
+}
+
+li{
+    margin:1em 40px;
+    font-size:x-large;
+    list-style-type:none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+}
+
